@@ -1,0 +1,62 @@
+<!DOCTYPE html> 
+<html>
+<head>
+    <title>
+        Student Registration Form
+    </title>
+</head>
+<body>
+    <h1><center>Student Registration Form</center></h1>
+    <form>
+        <p>Username</p>
+        <label><input type="text" id="fname" name="fname"></label><br>
+        <p>Reg.No</p>
+        <label><input type="text" id="regno" name="regno"></label>
+        <p>Password</p>
+        <input type="password" id="pwd" name="pwd"><br>
+        <p>Photo</p>
+        <input type="File" value="Choose File">
+        <p>Gender</p>
+        <input type="radio" id="Male" name="gender" value="male">
+        <label for="Male">Male</label><br>
+        <input type="radio" id="Female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <p>Date of Birth</p>
+        <label><input type="date"></label>
+        <p>Year</p>
+        <select name="Year" id="Year">
+            <option value="I">I</option>
+            <option value="II">II</option>
+            <option value="III">III</option>
+            <option value="IV">IV</option>
+        </select>
+        <br>
+        <p>Branch</p>
+        <input type="radio" id="AIML" name="branch" value="AIML">
+        <label for="AIML">CSE(AI&ML)</label><br>
+        <input type="radio" id="CSE" name="branch" value="CSE">
+        <label for="CSE" >CSE</label><br>
+        <input type="radio" id="CSCS" name="branch" value="CSCS">
+        <label for="CSCS">CSCS</label><br>
+        <input type="radio" id="CSBS" name="branch" value="CSBS">
+        <label for="CSBS">CSBS</label><br>
+        <input type="radio" id="CSDS" name="branch" value="CSDS">
+        <label for="CSDS">CSDS</label><br>
+        <p>Course</p>
+        <input type="checkbox" id="DL" name="course1">
+        <label for="DL">Deep Learning</label><br>
+        <input type="checkbox" id="WT" name="course2">
+        <label for="WT">Web Technologies</label><br>
+        <input type="checkbox" id="FIP" name="course3">
+        <label for="FIP">Fundamentals of Image Processing</label><br>
+        <input type="checkbox" id="SS" name="course4">
+        <label for="SS">Soft Skills</label><br>
+        <p>Address</p>
+        <textarea name="msg" rows="3" cols="30"></textarea>
+        <br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+        </form>
+    </body>
+</html>
+
